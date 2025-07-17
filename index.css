@@ -1,0 +1,414 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: #000000;
+    color: white;
+    max-width: 1714px;
+    margin: auto;
+}
+.st{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    .p{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        font-size: 17px;
+    }
+    .but{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        button{
+            padding: 10px 20px;
+            border-radius: 50px;
+            border: none;
+            color: black;
+            background-color: #9DFF3A;
+        }
+    }
+}
+.none{
+    display: none;
+}
+.tt{
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #9DFF3A;
+    background-color: #000000;
+    border: 2px solid #4D4D4D;
+    border-radius: 50px;
+    padding: 5px;
+    .krug{
+        width: 9px;
+        height: 9px;
+        background-color: #9DFF3A;
+        border-radius: 50%;
+    }
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    .txt{
+        h1{
+            font-size: 64px;
+        }
+        p{
+            font-size: 20px;
+            width: 533px;
+            margin-top: 10px;
+            color: #4D4D4D;
+        }
+        .but1{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-top: 20px;
+            button{
+                padding: 10px 20px;
+                border-radius: 50px;
+                background-color: #9DFF3A;
+                font-size: 17px;
+                border: none;
+            }
+            .but2{
+                display: flex;
+                align-items: center;
+                background-color: #000000;
+                color: white;
+                border: 2px solid #4D4D4D;
+                
+            }
+        }
+    }
+}
+.lung{
+    background-color: #0F0F0F;
+    color: #82868E;
+    padding: 30px;
+    margin-top: 50px;
+    p{
+        font-size: 18px;
+        text-align: center;
+    }
+    .fl{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 30px;
+    }
+}
+.cent{
+    text-align: center;
+    margin-top: 100px;
+    button{
+        padding: 10px 20px;
+        font-size: 17px;
+        margin-top: 20px;
+        background-color: #9DFF3A;
+        color: black;
+        border: none;
+    }
+    .t1{
+        margin: auto;
+    }
+    h1{
+        font-size: 48px;
+        margin-top: 20px;
+    }
+    p{
+        font-size: 18px;
+        width: 570px;
+        color: #D8D8D8E5;
+        margin: auto;
+        margin-top: 10px;
+    }
+}
+.fl1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 30px;
+    .bor{
+        border: 2px solid #B3B3B3;
+        text-align: center;
+        padding: 40px 60px;
+        border-radius: 12px;
+        .p1{
+            font-size: 20px;
+            margin-top: 20px;
+            color: white;
+        }
+        p{
+            color: #82868E;
+            margin-top: 10px;
+        }
+    }
+}
+.bg{
+    background-color: #0F0F0F;
+    padding: 40px;
+    margin-top: 100px;
+    .cen1{
+        margin-top: 0px;
+    }
+}
+.fl2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+    .t{
+        text-align: center;
+        h1{
+            font-size: 48px;
+            color: #9DFF3A;
+        }
+    }
+}
+.fl3{
+    display: flex;  
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+    .allnum{
+        .nu{
+            margin-top: 30px;
+        }
+        .num{
+            border: 2px solid #4D4D4D;
+            padding: 20px;
+            display: flex;
+            align-items: start;
+            gap: 20px;
+            border-radius: 20px;
+            img{
+                width: 30px;
+            }
+            .p1{
+                color: white;
+                font-size: 20px;
+            }
+            p{
+                width: 430px;
+                color: #82868E;
+                margin-top: 10px;
+            }
+            .kl{
+                margin-top: -10px;
+            }
+        }
+    }
+}
+.fl5{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 30px;
+    .num1{
+        background-color: black;
+        border: 2px solid #B3B3B3;
+        padding: 20px;
+        border-radius: 10px;
+        .flex{
+            display: flex;
+            align-items: center;
+            gap: 10px;   
+            margin-top: 20px;
+        }
+        .p{
+            width: 280px;
+        }
+        .l1{
+            color: #82868E;
+        }
+    }
+}
+.fl6{
+    border: 2px solid #2E2E2E;
+    padding: 10px;
+    width: 792px;
+    margin: auto;
+    margin-top: 50px;
+    .fl7{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 90%;
+        margin: auto;
+    }
+    p{
+        font-size: 18px;
+    }
+}
+.fl8{
+    margin-top: 30px;
+}
+.df{
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    .num3{
+        .jl{
+            font-size: 20px;
+        }
+        .pl{
+            margin-top: 20px;
+            color: #82868E;
+            p{
+                margin-top: 10px;
+            }
+        }
+    }
+    .num4{
+        p{
+            font-size: 20px;
+            width: 180px;
+        }
+    }
+    .fllast{
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        gap: 30px;
+        border-bottom: 2px solid #999999;
+
+        input{
+            border: none;
+            outline: none;
+            background-color: black;
+        }
+    }
+}
+.last{
+    padding: 20px;
+    margin-top: 100px;
+    .yes{
+        text-align: center;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width:510px) {
+    body{
+        overflow: hidden;
+    }
+    .none{
+        display: block;
+    }
+    .st{
+
+        .p{
+            display: none;
+        }
+        .but{
+            display: none;
+        }
+    }
+    .tt{
+        margin: auto;
+    }
+    .head{
+        flex-direction: column;
+        .img{
+            width: 100%;
+            margin-top: 50px;
+        }
+        .txt{
+            text-align: center;
+            h1{
+                font-size: 40px;
+            }
+            p{
+                font-size: 16px;
+                width: 340px;
+            }
+            .but1{
+                flex-direction: column;
+                justify-content: center;
+                button{
+                    padding: 15px 35px;
+                }
+            }
+        }
+    }
+    .lung{
+        .fl{
+            flex-wrap: wrap;
+            gap: 10px;
+            img{
+                width: 97px;
+            }
+        }
+    }
+    .cent{
+        h1{
+            font-size: 28px;
+        }
+        p{
+            font-size: 16px;
+            width: 300px;
+        }
+    }
+    .fl1{
+    flex-direction: column;
+    }
+    .fl3{
+        flex-direction: column;
+        img{
+            width: 100%;
+        }
+        .allnum{
+            .num{
+                width: 90%;
+                margin: auto;
+                margin-top: 30px;
+                p{
+                    width: 300px;
+                }
+            }
+        }
+    }
+    .fl5{
+        flex-direction: column;
+    }
+
+    .df{
+        flex-direction: column;
+        text-align: center;
+        .num2{
+            margin: auto;
+            img{
+                width: 107.00001525878906px;
+            }
+        }
+        .num3{
+            text-align: center;
+            margin: auto;
+            margin-top: 30px;
+        }
+        .num4{
+            margin: auto;
+            p{
+                margin: auto;
+                margin-top: 20px;
+            }
+            .fllast{
+                margin-top: 20px;
+            }
+        }
+    }
+
+}
